@@ -12,11 +12,11 @@
 	<meta name="keywords" content="Free HTML Template">
 	<meta name="description" content="Free HTML Template">
 
-	<link rel="stylesheet" type="text/css" href="icomoon/icomoon.css">
-	<link rel="stylesheet" type="text/css" href="css/vendor.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/icomoon/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/vendor.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -103,7 +103,7 @@
 	<section id="intro" class="scrollspy-section">
 		<div class="main-slider">
 			<div class="slider-item jarallax" data-speed="0.2">
-				<img src="images/main-banner1.jpg" alt="banner" class="jarallax-img">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-banner1.jpg" alt="banner" class="jarallax-img">
 				<div class="banner-content">
 					<h2 class="banner-title txt-fx">Modern Designs</h2>
 					<div class="btn-wrap">
@@ -113,7 +113,7 @@
 			</div><!--slider-item-->
 
 			<div class="slider-item jarallax" data-speed="0.2">
-				<img src="images/main-banner2.jpg" alt="banner" class="jarallax-img">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-banner2.jpg" alt="banner" class="jarallax-img">
 				<div class="banner-content">
 					<h2 class="banner-title txt-fx">Clean & Minimal</h2>
 					<div class="btn-wrap">
@@ -123,7 +123,7 @@
 			</div><!--slider-item-->
 
 			<div class="slider-item jarallax" data-speed="0.2">
-				<img src="images/main-banner3.jpg" alt="banner" class="jarallax-img">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-banner3.jpg" alt="banner" class="jarallax-img">
 				<div class="banner-content">
 					<h2 class="banner-title txt-fx">Personalize and Customize</h2>
 					<div class="btn-wrap">
@@ -163,7 +163,7 @@
 
 				<div class="col-md-6">
 					<figure class="jarallax-keep-img">
-						<img src="images/singleimage.jpg" alt="about us" class="jarallax-img single-image">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/singleimage.jpg" alt="about us" class="jarallax-img single-image">
 					</figure>
 				</div>
 				<div class="col-md-6 description text-lead">
@@ -220,117 +220,117 @@
 			<div class="grid p-0 clearfix row row-cols-2 row-cols-lg-3 row-cols-xl-3" data-aos="fade-up">
 				<div class="col mb-4 portfolio-item construction interior">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 1."><img src="images/portfolio-thumb-1.jpg"
+						title="Sample Caption goes here for Portfolio Item 1."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-1.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item construction construction">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 2."><img src="images/portfolio-thumb-2.jpg"
+						title="Sample Caption goes here for Portfolio Item 2."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-2.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item construction">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 3."><img src="images/portfolio-thumb-11.jpg"
+						title="Sample Caption goes here for Portfolio Item 3."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-11.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item construction">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 4."><img src="images/portfolio-thumb-4.jpg"
+						title="Sample Caption goes here for Portfolio Item 4."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-4.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item interior">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 5."><img src="images/portfolio-thumb-5.jpg"
+						title="Sample Caption goes here for Portfolio Item 5."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-5.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item design">
 					<a href="images/portfolio-large-1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 6."><img src="images/portfolio-thumb-6.jpg"
+						title="Sample Caption goes here for Portfolio Item 6."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-6.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item design">
 					<a href="images/portfolio-large-1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 7."><img src="images/portfolio-thumb-7.jpg"
+						title="Sample Caption goes here for Portfolio Item 7."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-7.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item design">
 					<a href="images/portfolio-large-1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 8."><img src="images/portfolio-thumb-8.jpg"
+						title="Sample Caption goes here for Portfolio Item 8."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-8.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item design">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 9."><img src="images/portfolio-thumb-9.jpg"
+						title="Sample Caption goes here for Portfolio Item 9."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-9.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item design">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 0."><img src="images/portfolio-thumb-10.jpg"
+						title="Sample Caption goes here for Portfolio Item1 0."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-10.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item design">
 					<a href="images/portfolio-large-1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 1."><img src="images/portfolio-thumb-11.jpg"
+						title="Sample Caption goes here for Portfolio Item1 1."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-11.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item construction">
 					<a href="images/portfolio-large-1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 2."><img src="images/portfolio-thumb-2.jpg"
+						title="Sample Caption goes here for Portfolio Item1 2."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-2.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item interior">
 					<a href="images/portfolio-large-1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 1."><img src="images/portfolio-thumb-3.jpg"
+						title="Sample Caption goes here for Portfolio Item 1."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-3.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item landscape">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 2."><img src="images/portfolio-thumb-8.jpg"
+						title="Sample Caption goes here for Portfolio Item 2."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-8.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item landscape">
 					<a href="images/portfolio-large-1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 3."><img src="images/portfolio-thumb-1.jpg"
+						title="Sample Caption goes here for Portfolio Item 3."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-1.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item interior">
 					<a href="images/portfolio-large-1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 4."><img src="images/portfolio-thumb-4.jpg"
+						title="Sample Caption goes here for Portfolio Item 4."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-4.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item interior">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 5."><img src="images/portfolio-thumb-5.jpg"
+						title="Sample Caption goes here for Portfolio Item 5."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-5.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item interior">
 					<a href="images/portfolio-large-1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 6."><img src="images/portfolio-thumb-6.jpg"
+						title="Sample Caption goes here for Portfolio Item 6."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-6.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item landscape">
 					<a href="images/portfolio-large-1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 7."><img src="images/portfolio-thumb-7.jpg"
+						title="Sample Caption goes here for Portfolio Item 7."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-7.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item landscape">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item 8."><img src="images/portfolio-thumb-8.jpg"
+						title="Sample Caption goes here for Portfolio Item 8."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-8.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item landscape">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 0."><img src="images/portfolio-thumb-10.jpg"
+						title="Sample Caption goes here for Portfolio Item1 0."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-10.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item construction">
 					<a href="images/portfolio-large-1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 1."><img src="images/portfolio-thumb-11.jpg"
+						title="Sample Caption goes here for Portfolio Item1 1."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-11.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 				<div class="col mb-4 portfolio-item landscape">
 					<a href="images/portfolio-large-2.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 2."><img src="images/portfolio-thumb-1.jpg"
+						title="Sample Caption goes here for Portfolio Item1 2."><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio-thumb-1.jpg"
 							class="img-fluid" alt="portfolio"></a>
 				</div>
 			</div>
@@ -390,7 +390,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<figure class="subscribe-image">
-						<img src="images/subscribe-image.png" alt="subscribe">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/subscribe-image.png" alt="subscribe">
 					</figure>
 				</div>
 				<div class="col-md-6">
@@ -437,7 +437,7 @@
 
 									<figure>
 										<a href="#" class="image-hvr-effect">
-											<img src="images/postimg1.jpg" alt="post" class="post-image">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/postimg1.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 
@@ -457,7 +457,7 @@
 								<article class="post-item">
 									<figure>
 										<a href="#" class="image-hvr-effect">
-											<img src="images/postimg2.jpg" alt="post" class="post-image">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/postimg2.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
@@ -474,7 +474,7 @@
 								<article class="post-item">
 									<figure>
 										<a href="#" class="image-hvr-effect">
-											<img src="images/postimg3.jpg" alt="post" class="post-image">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/postimg3.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
@@ -598,7 +598,7 @@
 				<div class="col-md-6">
 
 					<figure class="jarallax-keep-img testimonial-image" data-speed="0.5">
-						<img src="images/review-bg.jpg" alt="review" class="jarallax-img">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/review-bg.jpg" alt="review" class="jarallax-img">
 					</figure>
 
 				</div>
@@ -637,7 +637,7 @@
 				<div class="col-md-3">
 
 					<div class="footer-menu menu-item-01">
-						<img src="images/logo.png" alt="logo" class="footer-logo">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="logo" class="footer-logo">
 						<p>Tristique lacus ullamcorper massa posuere nisl molestie. Nullam motes, tortor masa. Nisl
 							tellus etiam.</p>
 						<div class="social-links">
@@ -760,14 +760,14 @@
 		</div>
 	</div>
 
-	<script src="js/jquery-1.11.0.min.js"></script>
-	<script src="js/ui-easing.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery-1.11.0.min.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/ui-easing.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
 		crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/script.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/plugins.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/script.js"></script>
 
 </body>
 
