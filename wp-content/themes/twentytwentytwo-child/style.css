@@ -5,3 +5,7 @@
  * Description : My first child Theme
  * ...other header fields
  */
+
+ body {
+    background-color: blue;
+ }
