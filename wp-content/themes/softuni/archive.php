@@ -49,9 +49,12 @@
 
 	<div class="row">
 		<div class="col">
-			<div class="btn-wrap align-center">
-				<a href="#" class="btn btn-xlarge btn-accent btn-rounded">View all blog</a>
-			</div>
+
+				<?php the_posts_pagination(); ?>
+
+				<div class="btn-wrap align-center">
+					<a href="#" class="btn btn-xlarge btn-accent btn-rounded">View all blog</a>
+				</div>
 		</div>
 	</div>
 </section>
