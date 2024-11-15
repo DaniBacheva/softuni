@@ -22,17 +22,17 @@
 					<?php while( have_posts() ) : the_post(); ?>
 						<div class="col-md-4">
 							<article class="post-item">
-								<figure>
-									<a href="#" class="image-hvr-effect">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/postimg1.jpg" alt="post" class="post-image">
-									</a>
-								</figure>
+								<?php if( has_post_thumbnail() ) : ?>
+									<figure>
+										<a href="<?php echo get_the_permalink(); ?>" class="image-hvr-effect">
+											<?php the_post_thumbnail( 'post-thumbnail', [ 'class' => 'post-image', 'title' => 'Feature image'] ); ?>
+										</a>
+									</figure>
+								<?php endif; ?>
 								<div class="post-content">
-									<div class="meta-date">Mar 30, 2021</div>
-									<h3 class="post-title"><a href="#">modern vibes bedrooms, todays trending
-												design</a></h3>
-									<p>Lectus molestie id enim ipsum. Netus sed cursus nibh iaculis ipsum turpis
-									nulla blandit dui.</p>
+									<div class="meta-date"><?php echo get_the_date(); ?></div>
+									<h3 class="post-title"><a href="<?php echo get_the_permalink(); ?>"><?php the_title(); ?></a></h3>
+									<p><?php echo get_the_excerpt(); ?></p>
 								</div>
 							</article>
 
