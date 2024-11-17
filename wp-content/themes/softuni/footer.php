@@ -115,7 +115,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="copyright">
-						<p>© 2022 Archi. All rights reserved.</p>
+						<p>©<?php echo date( 'Y' ) ?> Archi. All rights reserved.</p>
 					</div>
 				</div>
 				<div class="col-md-6">
