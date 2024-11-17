@@ -1,3 +1,5 @@
+<?php
+
 /*
  * Plugin Name: Softuni
  * Author: Dani Nikolova    
@@ -5,4 +7,7 @@
  * Version: 0.1
  */
 
- echo 'Hello from my plugin';
+ //echo 'Hello from my plugin';
+
+
+ require 'includes/cpt-portfolio.php';
