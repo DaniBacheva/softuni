@@ -265,7 +265,7 @@
 		</div>
 	</section>
 
-	<?php include 'latest-posts.php'; ?>
+	<?php softuni_display_latest_posts( 2 ); ?>
 
 	<section id="contact" class="scrollspy-section bg-dark padding-large">
 		<div class="container">

@@ -2,7 +2,7 @@
 $latest_posts_arg = array(
     'post_type'       => 'post',
     'post_status'     => 'publish',
-    'posts_per_page'   => 3,
+    'posts_per_page'  => $number_of_posts,
 );
 
 $latest_posts_query = new WP_Query ( $latest_posts_arg );
