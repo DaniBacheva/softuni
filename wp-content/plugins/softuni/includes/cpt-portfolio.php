@@ -51,3 +51,39 @@ function softuni_register_portfolio_cpt() {
 }
 
 add_action( 'init', 'softuni_register_portfolio_cpt' );
+
+/**
+ * Register taxonomy for our "portfolio".
+ *
+ * void return
+ */
+
+
+function softuni_register_portfolio_category_taxonomy() {
+
+    $labels = array(
+		'name'              => _x( 'Categories', 'taxonomy general name', 'softuni' ),
+		'singular_name'     => _x( 'Category', 'taxonomy singular name', 'softuni' ),
+		'search_items'      => __( 'Search Categories', 'softuni' ),
+		'all_items'         => __( 'All Categories', 'softuni' ),
+		'parent_item'       => __( 'Parent Category', 'softuni' ),
+		'parent_item_colon' => __( 'Parent Category:', 'softuni' ),
+		'edit_item'         => __( 'Edit Category', 'softuni' ),
+		'update_item'       => __( 'Update Category', 'softuni' ),
+		'add_new_item'      => __( 'Add New Category', 'softuni' ),
+		'new_item_name'     => __( 'New Category Name', 'softuni' ),
+		'menu_name'         => __( 'Category', 'softuni' ),
+	);
+	$args = array(
+		'hierarchical'      => true,
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+        'show_in_rest'      => true,
+		'rewrite'           => array( 'slug' => 'category' ),
+	);
+    register_taxonomy( 'portfolio-category', 'portfolio', $args );
+}
+
+add_action( 'init', 'softuni_register_portfolio_category_taxonomy' );
