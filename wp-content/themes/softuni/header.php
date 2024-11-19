@@ -101,7 +101,7 @@
 		</label>
 	</div>
 
-	<?php if ( ! is_singular() ) : ?>
+	<?php if ( is_front_page() ) : ?>
 		<section id="intro" class="scrollspy-section">
 			<div class="main-slider">
 				<div class="slider-item jarallax" data-speed="0.2">
