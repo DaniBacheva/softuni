@@ -12,7 +12,8 @@
 
 			<div class="row">
      			<div class="col-md-12 description text-lead">
-			    	NOT FOUND!!!
+					<?php _e( 'NOT FOUND!!!', 'softuni' ); ?>
+			    	
 		    	</div>
 			</div>
 		</div>
