@@ -3104,3 +3104,11 @@ footer#footer {
 .single-post h2 {
   color: red;
 }
+
+#post-id-30 {
+  background: yellow;
+}
+
+.author #post-id-30 {
+  background: purple;
+}
