@@ -49,7 +49,7 @@
 						wp_nav_menu( $nav_menu_args );
 						?>
 						
-						<ul class="nav__list d-none d-md-block">
+						<!-- <ul class="nav__list d-none d-md-block">
 							<li class="nav__list-item active-nav"><a href="index.html" class="hover-target">Home</a>
 							</li>
 							<li class="nav__list-item"><a href="index.html" class="hover-target">Onepage</a></li>
@@ -58,7 +58,7 @@
 							<li class="nav__list-item"><a href="single-post.html" class="hover-target">Single Post</a>
 							</li>
 							<li class="nav__list-item"><a href="contact.html" class="hover-target">Contact us</a></li>
-						</ul>
+						</ul> -->
 					</div>
 					<div class="col-md-4 text-white">
 						<h3 class="text-white fw-bold nav__block-item">Contact info</h3>
