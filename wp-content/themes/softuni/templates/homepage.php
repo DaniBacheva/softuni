@@ -23,7 +23,6 @@
 	get_template_part( 'partials/subscribe', 'section' );
 ?>	
 	
-
 <?php softuni_display_latest_posts( 2 ); ?>
 
 <?php
