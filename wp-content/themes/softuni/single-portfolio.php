@@ -2,6 +2,7 @@
 
 <?php
 $portfolio_address = get_post_meta( get_the_ID(), 'portfolio_address', true );
+$portfolio_like = get_post_meta( get_the_ID(), 'votes', true );
 ?>
 
 	<section id="about" class="scrollspy-section padding-xlarge">
@@ -14,7 +15,7 @@ $portfolio_address = get_post_meta( get_the_ID(), 'portfolio_address', true );
 				</div>
 
 				<div class="col-md-2">
-					<a href="#" class="like" id="portfolio-<?php echo get_the_ID(); ?>">LIKE ME!</a>
+					<a href="#" class="like" id="portfolio-<?php echo get_the_ID(); ?>" data-id="<?php echo get_the_ID(); ?>">LIKE ME(<?php echo $portfolio_like ?> likes)</a>
 				</div>
 
 			</div>
