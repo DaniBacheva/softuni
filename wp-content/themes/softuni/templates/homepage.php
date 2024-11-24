@@ -5,10 +5,15 @@
  */
 ?>
 
+<?php
+$about_us_fields = get_fields( get_the_ID() );
+//var_dump( $about_us_fields );
+?>
+
 <?php get_header(); ?>
 
 <?php
-	get_template_part( 'partials/about', 'section' );
+	get_template_part( 'partials/about', 'section' , $about_us_fields );
 ?>
 
 <?php

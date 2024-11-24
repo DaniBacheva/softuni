@@ -1,3 +1,7 @@
+<?php
+var_dump( $args );
+?>
+
 <section id="about" class="scrollspy-section padding-xlarge">
 		<div class="container">
 			<div class="row">
@@ -6,13 +10,17 @@
 						<div class="title">
 							<span>who are we</span>
 						</div>
-						<h2 class="section-title">About Us from template</h2>
+							<?php if ( ! empty( $args['title'] ) ) : ?>
+								<h2 class="section-title"><?php echo esc_attr( $args['title'] ); ?> ACF</h2>
+						<?php endif; ?>
 					</div>
 				</div>
 
 			</div>
 
 			<div class="row">
+				
+			<?php // @TODO: use the image array from the ACF ?>
 
 				<div class="col-md-6">
 					<figure class="jarallax-keep-img">
@@ -20,18 +28,23 @@
 					</figure>
 				</div>
 				<div class="col-md-6 description text-lead">
-					<p><strong>Amet, consectetur adipiscing elit. Commodo viverra eu volutpat amet, leo ultrici non
-							senectus odio dolor. Id at urna non porttitor elentum. Viverra senectus lorem ipsum dolor
-							sit adui ultricies dolor varius nibh velit viverra euen.</strong></p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo viverra eu volutpat amet, leo
-						non senetus odio dolor. Id at urna non portitor etum. Vivera senectus elit dui ultricies dolor.
-						Varius nibh velit pellentesque sapien, sapien neque dignissim.</p>
-					<p>Commodo vivera eu volutpat amet, leo non senectus odio dolor. Id at urna non porttitor elementum.
-						Viverra senectus dui ultricies dolor.</p>
+		 			<?php if ( ! empty( $args['content'] ) ) : ?>
+						<div class="content">
+							<?php echo $args['content']; ?>
+						</div>
+					<?php endif; ?>
 
+					<?php if ( ! empty( $args['cta_title'] ) && $args['cta_url'] ) : ?>
+					<?php
+					$new_tab = '';
+					if ( ! empty( $args['cta_new_tab'] ) && $args['cta_new_tab'] == true ) {
+						$new_tab = 'target="_blank"';
+					}
+					?>
 					<div class="btn-wrap">
-						<a href="#" class="btn btn-accent btn-xlarge btn-rounded">View my portfolio</a>
+						<a <?php echo $new_tab; ?> href="<?php echo esc_url( $args['cta_url'] ); ?>" class="btn btn-accent btn-xlarge btn-rounded"><?php echo esc_attr( $args['cta_title'] ); ?></a>
 					</div>
+				<?php endif; ?>
 
 				</div>
 			</div>	
